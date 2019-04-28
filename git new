@@ -1,0 +1,13 @@
+git config --global user.name "linu"
+git config --global user.email "linu297@gmail.com"
+mkdir git new
+cd git new
+git init
+touch readme
+git add readme
+git commit -m "first commit"
+git remote add origin https://github.com/linulal/git-new/new/master
+git push -u origin master
+cd existing_repo
+git remote add origin https://github.com/linulal/git-new/new/master
+git push -u origin master
