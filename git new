@@ -6,8 +6,8 @@ git init
 touch readme
 git add readme
 git commit -m "first commit"
-git remote add origin https://github.com/linulal/git-new/new/master
+git remote add origin https://github.com/linulal/git-new.git
 git push -u origin master
 cd existing_repo
-git remote add origin https://github.com/linulal/git-new/new/master
+git remote add origin https://github.com/linulal/git-new.git
 git push -u origin master
