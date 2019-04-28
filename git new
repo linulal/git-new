@@ -1,4 +1,4 @@
-git config --global user.name "linu"
+git config --global user.name "linulal"
 git config --global user.email "linu297@gmail.com"
 mkdir git new
 cd git new
